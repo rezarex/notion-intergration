@@ -1,7 +1,7 @@
 const express = require('express');
 const asyncHandler = require('express-async-handler')
 const app = express();
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 const jsforce = require('jsforce');
 const PORT = process.env.PORT || 3000;
 const {SF_TOKEN, SF_USER, SF_PASS, SF_LOGIN_URL} = process.env;
@@ -24,24 +24,34 @@ conn.login(SF_USER, SF_PASS+SF_TOKEN, (err, userInfo)=>{
 
 
 const getAccounts = asyncHandler(async (req, res)=>{
+   try {
     conn.query("SELECT Id, Name, Email, Phone, Department FROM Contact", (err, result)=>{
         if(err){
             res.send(err)
         }
         console.log("Total: "+ result.totalrecords);
-        res.json(result.records);
+        //res.json(result.records);
+        return result.records
     })
+   } catch (error) {
+    throw new Error(error)
+   }
 
 })
 
 const getContacts = asyncHandler(async (req, res)=>{
+ try {
     conn.query("SELECT Id, Name, Email, Phone, Department FROM Contact", (err, result)=>{
         if(err){
             res.send(err)
         }
         console.log("Total: "+ result.totalrecords);
-        res.json(result.records);
+        //res.json(result.records);
+        return result.records
     })
+ } catch (error) {
+    throw new Error(error)
+ }
 
 })
 
