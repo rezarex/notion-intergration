@@ -17,6 +17,7 @@ To use the script:
 4. Run `npm start` to start the service. It is configured to run with 'forever' module
 5. To migrate Accounts info, use the route "{your_base_url}:5000/import/accounts"
 6. To migrate Contacts info, use the route "{your_base_url}:5000/import/contacts"
+7. To stop the script and any subprocesses, use the command `npm stop`
 
 These routes may be used in both the browser or using an API platform like POSTMAN, ensure to use get request.
 
