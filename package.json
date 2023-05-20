@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "forever start app.js",
     "stop": "pm2 stop app.js"
   },
   "repository": {
@@ -23,8 +23,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
+    "forever": "^4.0.3",
     "jsforce": "^1.11.1",
     "nodemon": "^2.0.22",
-    "pm2": "^5.3.0"
+    "pm2": "^5.3.0",
+    "winston": "^3.8.2"
   }
 }

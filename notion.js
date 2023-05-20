@@ -2,6 +2,8 @@ const { Client } = require('@notionhq/client');
 require('dotenv').config();
 const asyncHandler = require('express-async-handler')
 const {getAccounts, getContacts} = require('./salesforce')
+const logger = require('./logger')
+
 
 
 const notion = new Client({
@@ -9,11 +11,12 @@ const notion = new Client({
   });
 
 
-  const createContactsTable = asyncHandler(async(req, res)=>{
+  const createContactsDb = asyncHandler(async()=>{
+    
     const response = await notion.databases.create({
         parent: {
-          page_id: process.env.NOTION_CONTACT_PAGE,
-        },
+            page_id: process.env.NOTION_CONTACTS_PAGE_ID,
+          },
         title: [
           {
             type: 'text',
@@ -23,29 +26,30 @@ const notion = new Client({
           },
         ],
         properties: {
-            Id: {
-                title: {},
-              },
-            Name: {
+          Id: {
+            rich_text: {},
+                },
+          Name: {
             title: {},
-          },
+            },
           Email: {
             rich_text: {},
           },
           Phone: {
-            title: {},
+            rich_text: {},
           },
           Department: {
             rich_text: {},
           },
         },
       });
+      return response.id
   });
 
-  const createAccountsTable = asyncHandler(async(req, res)=>{
+  const createAccountsDb = asyncHandler(async()=>{
     const response = await notion.databases.create({
         parent: {
-          page_id: process.env.NOTION_ACCOUNTS_PAGE,
+          page_id: process.env.NOTION_ACCOUNTS_PAGE_ID,
         },
         title: [
           {
@@ -56,24 +60,67 @@ const notion = new Client({
           },
         ],
         properties: {
-          Name: {
+            Id: {
+                rich_text: {},
+              },
+            Name: {
             title: {},
-          },
-          Description: {
-            rich_text: {},
           },
         },
       });
+      return response.id
   });
 
 
 
+  const createAccountPages = asyncHandler(async(databaseId)=>{
+    try {
+        const accounts = await getAccounts();
+        //console.log("data");
+        for (const account of accounts) {
+            const page = await notion.pages.create({
+              parent: { database_id: databaseId },
+              properties: {
+                Id: { rich_text: [{ text: { content: account.Id || ''} }] },
+                Name: { title: [{ text: { content: account.Name || '' } }] },
+              },
+            });
+            logger.info(`Account Added: ${page.url}`);
+          }
+    } catch (error) {
+        logger.error(error);
+    }
+  })
+
+  const createContactPages = asyncHandler(async(databaseId)=>{
+    try {
+        const contacts = await getContacts();
+        //console.log(contacts);
+        for (const contact of contacts) {
+            const page = await notion.pages.create({
+              parent: { database_id: databaseId },
+              properties: {
+                Id: { rich_text: [{ text: { content: contact.Id || '' } }] },
+                Name: { title: [{ text: { content: contact.Name || '' } }] },
+                Email: { rich_text: [{ text: { content: contact.Email || ''} }] },
+                Phone: { rich_text: [{ text: { content: contact.Phone || '' } }] },
+                Department: { rich_text: [{ text: { content: contact.Department || ''} }] },
+              },
+            });
+            logger.info(`Contact Added: ${page.url}`);
+         }
+    } catch (error) {
+        logger.error(error);
+    }
+  })
+
 
   const importAccounts = asyncHandler(async(req, res)=>{
     try {
-        createAccountsTable();
+        const databaseId = await createAccountsDb();
+        await createAccountPages(databaseId)
     } catch (error) {
-        throw new Error(error)
+        logger.error(error)
     }
 
   })
@@ -81,11 +128,11 @@ const notion = new Client({
 
   const importContacts = asyncHandler(async(req, res)=>{
     try {
-        createContactsTable();
+        const databaseId = await createContactsDb();
+        await createContactPages(databaseId)
     } catch (error) {
-        throw new Error(error)
+      logger.error(error)
     }
   })
-//get pooled data from salseforce.js
-//initialize notion API
-//send data to notion
+
+  module.exports={importAccounts, importContacts};
