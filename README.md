@@ -28,8 +28,8 @@ These routes may be used in both the browser or using an API platform like POSTM
 4. run `contacts` to migrate the contacts
 
 ## Logging and auto restart
-The script is configured to save logs in *api.log*
-Should the script runs automatically even with bugs, and in case it is stopped, restarts from the stage it stopped.
+The script is configured to save logs in *api.log*.
+The script runs automatically even with bugs, and in case it is stopped, restarts from the stage it stopped.
 
 To check if there are any processes running, use the command `forever list`
 
