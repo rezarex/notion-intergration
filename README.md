@@ -21,6 +21,12 @@ To use the script:
 
 These routes may be used in both the browser or using an API platform like POSTMAN, ensure to use get request.
 
+## To use CLI
+1. Clone the repository
+2. Run `npm install -g` to install dependencies globally
+3. Run `accounts` to do perform the accounts migrations
+4. run `contacts` to migrate the contacts
+
 ## Logging and auto restart
 The script is configured to save logs in *api.log*
 Should the script runs automatically even with bugs, and in case it is stopped, restarts from the stage it stopped.
