@@ -6,3 +6,100 @@
 [info]: [🚀]: May-20-2023 20:15:06: Connection successful!
 [info]: [🚀]: May-20-2023 20:16:43: server is live on PORT 5000..
 [info]: [🚀]: May-20-2023 20:16:44: Connection successful!
+[info]: [🚀]: May-21-2023 07:17:10: server is live on PORT 5000..
+[info]: [🚀]: May-21-2023 07:17:11: Connection successful!
+[info]: [🚀]: May-21-2023 07:18:00: Account Added: https://www.notion.so/Greer122-Inc-7a1e0794bb904eb19aff8a7a0dac52c6
+[error]: [🚀]: May-21-2023 07:18:00: Cannot read properties of undefined (reading 'send')
+[info]: [🚀]: May-21-2023 07:18:54: Account Added: https://www.notion.so/Greer122-Inc-c8097b61c96444fa8a69d0da21519d99
+[error]: [🚀]: May-21-2023 07:18:54: Cannot read properties of undefined (reading 'send')
+[info]: [🚀]: May-21-2023 07:22:58: server is live on PORT 5000..
+[info]: [🚀]: May-21-2023 07:23:00: Connection successful!
+[info]: [🚀]: May-21-2023 07:23:10: Account Added: https://www.notion.so/Greer122-Inc-24c9ccbc0ba54b48acd32b0e9eaf1b33
+[info]: [🚀]: May-21-2023 07:23:11: Account Added: https://www.notion.so/Stewart123-Inc-85fdaf5a496b4f258ba20405622ca6b8
+[debug]: [🚀]: May-21-2023 07:23:12: Total: 30
+[info]: [🚀]: May-21-2023 07:23:12: Account Added: https://www.notion.so/Frank124-Inc-350bc801f000490dbf68a2b8b393a085
+[error]: [🚀]: May-21-2023 07:23:13: body failed validation. Fix one:
+body.parent.database_id should be defined, instead was `undefined`.
+body.parent.page_id should be defined, instead was `undefined`.
+[info]: [🚀]: May-21-2023 07:23:14: Account Added: https://www.notion.so/Burke125-Inc-ac5986ca3b9249afa1866e340b273eda
+[info]: [🚀]: May-21-2023 07:23:15: Account Added: https://www.notion.so/Bates126-Inc-cfe38f24a992425aa9349a2c563e3e34
+[info]: [🚀]: May-21-2023 07:23:16: Account Added: https://www.notion.so/Nash127-Inc-118df7e0045d41229cba71fcc2540182
+[info]: [🚀]: May-21-2023 07:23:17: Account Added: https://www.notion.so/Morton128-Inc-ab70271a08f64acab1c3a070f083e218
+[info]: [🚀]: May-21-2023 07:23:19: Account Added: https://www.notion.so/Cruz129-Inc-b7d4f4be6a55448a9ba63a5c721efbbc
+[info]: [🚀]: May-21-2023 07:23:19: Account Added: https://www.notion.so/Greer122-Inc-02d8520b78fc4b15bb7948199047ffe1
+[info]: [🚀]: May-21-2023 07:23:21: Account Added: https://www.notion.so/Jennings130-Inc-86b4bca7b19f45318d9227e18e42dd5f
+[info]: [🚀]: May-21-2023 07:23:22: Account Added: https://www.notion.so/Rodgers131-Inc-6a83d5f5511a4e3ea0ce8da454c30b1f
+[info]: [🚀]: May-21-2023 07:23:23: Account Added: https://www.notion.so/Cobb132-Inc-c2ad3d66f60e4b2e886659d7d8af5de8
+[info]: [🚀]: May-21-2023 07:23:23: Account Added: https://www.notion.so/Stewart123-Inc-50c27a92c6e54ee8be2327b92179f2bb
+[info]: [🚀]: May-21-2023 07:23:24: Account Added: https://www.notion.so/Johnston133-Inc-86feba397de7421094c85b3f0058eb8a
+[info]: [🚀]: May-21-2023 07:23:25: Account Added: https://www.notion.so/Frank124-Inc-c81ecdb74c6846dcac5e222157ef9818
+[info]: [🚀]: May-21-2023 07:23:26: Account Added: https://www.notion.so/Burke125-Inc-b94de01090fa45738ce2f4af70bf50df
+[info]: [🚀]: May-21-2023 07:23:27: Account Added: https://www.notion.so/Bates126-Inc-5787a4c853374fe4b0cb53bb80be6ad1
+[info]: [🚀]: May-21-2023 07:23:29: Account Added: https://www.notion.so/Nash127-Inc-6b82de6b9d574417b48a5e0151dc8122
+[info]: [🚀]: May-21-2023 07:23:31: Account Added: https://www.notion.so/Morton128-Inc-d2967ab75ab044dabf36ee0da7e1f51e
+[info]: [🚀]: May-21-2023 07:23:32: Account Added: https://www.notion.so/Nichols134-Inc-eb9649b62ce64ef19e076acf7b7da9f7
+[info]: [🚀]: May-21-2023 07:23:32: Account Added: https://www.notion.so/Larson135-Inc-2a7bca22a44f45b3bc9ec92410107b35
+[info]: [🚀]: May-21-2023 07:23:34: Account Added: https://www.notion.so/Thompson136-Inc-23452a309a32483e8b5ac0f5d2e91919
+[info]: [🚀]: May-21-2023 07:23:36: Account Added: https://www.notion.so/Ramirez137-Inc-2382ff030cae4dceacdaab8ea14e81d0
+[info]: [🚀]: May-21-2023 07:23:38: Account Added: https://www.notion.so/Peters138-Inc-c766f212addc4805abd190691ffba832
+[info]: [🚀]: May-21-2023 07:23:41: Account Added: https://www.notion.so/Pope139-Inc-818095614518465ca21e8d2df94167f2
+[info]: [🚀]: May-21-2023 07:23:47: Account Added: https://www.notion.so/Lopez140-Inc-cd38536df95a42b3aab1b794bd604c89
+[info]: [🚀]: May-21-2023 07:23:48: Account Added: https://www.notion.so/Cruz129-Inc-a8daa7b4ef864ec1b40b344c573712de
+[info]: [🚀]: May-21-2023 07:23:48: Account Added: https://www.notion.so/Daniels141-Inc-9e1853f0d7ff45b78fc9fe9b51074f64
+[info]: [🚀]: May-21-2023 07:23:50: Account Added: https://www.notion.so/Jennings130-Inc-574607d6df1e423aa4b1dc5e927e7e40
+[info]: [🚀]: May-21-2023 07:23:50: Account Added: https://www.notion.so/Underwood142-Inc-d7bd1db9bfd9427aac1caad868505161
+[info]: [🚀]: May-21-2023 07:23:51: Account Added: https://www.notion.so/Rodgers131-Inc-29b6d8258be04cc7916c708655f10c26
+[info]: [🚀]: May-21-2023 07:23:51: Account Added: https://www.notion.so/McKenzie143-Inc-56f4cdf5ec0240b4abb80ad957605391
+[info]: [🚀]: May-21-2023 07:23:52: Account Added: https://www.notion.so/Cobb132-Inc-6306a1c858c74af2b4672dfa830725c7
+[info]: [🚀]: May-21-2023 07:23:53: Account Added: https://www.notion.so/Johnston133-Inc-02e59dd168164c0e961b2b42a3420651
+[info]: [🚀]: May-21-2023 07:23:53: Account Added: https://www.notion.so/Nichols134-Inc-f716563596ba47c6bb9aa3dcdade5688
+[info]: [🚀]: May-21-2023 07:23:55: Account Added: https://www.notion.so/Larson135-Inc-7f5812ed7964442c8a305f4f4bcd7462
+[info]: [🚀]: May-21-2023 07:23:56: Account Added: https://www.notion.so/Quinn144-Inc-807a89a63c57462c9efcfbde477366c9
+[info]: [🚀]: May-21-2023 07:23:56: Account Added: https://www.notion.so/Thompson136-Inc-19f75adab722406e8dd2a0938fe482bd
+[info]: [🚀]: May-21-2023 07:23:57: Account Added: https://www.notion.so/Ramirez137-Inc-933698a603db433c9e4799b2e1f8fa98
+[info]: [🚀]: May-21-2023 07:23:58: Account Added: https://www.notion.so/Peters138-Inc-8af652fcd0f94f06bf842d4607ef67b9
+[info]: [🚀]: May-21-2023 07:23:59: Account Added: https://www.notion.so/Pope139-Inc-736042630b234847b523a2d5843fb54d
+[info]: [🚀]: May-21-2023 07:24:00: Account Added: https://www.notion.so/Lopez140-Inc-872c110f26ca476895a7e2aa226680d1
+[info]: [🚀]: May-21-2023 07:24:01: Account Added: https://www.notion.so/Daniels141-Inc-27f7466c63fe4c2e923448dee4319ca5
+[info]: [🚀]: May-21-2023 07:24:02: Account Added: https://www.notion.so/Underwood142-Inc-2658408cd6d64db583b2dd5fbd71f425
+[info]: [🚀]: May-21-2023 07:24:02: Account Added: https://www.notion.so/Newman145-Inc-cd09b3d34e0a484eb49dbd67733e77e1
+[info]: [🚀]: May-21-2023 07:24:03: Account Added: https://www.notion.so/McKenzie143-Inc-625e18f318e7409998833736a41a0bbf
+[info]: [🚀]: May-21-2023 07:24:03: Account Added: https://www.notion.so/Knight146-Inc-1db1bfbcf35e415aabe1a247c8719ede
+[info]: [🚀]: May-21-2023 07:24:04: Account Added: https://www.notion.so/Graves147-Inc-ce6a741a09f54439b1f65b37c895fef0
+[error]: [🚀]: May-21-2023 07:24:04: request to https://api.notion.com/v1/pages failed, reason: write EPROTO 74350000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1584:SSL alert number 40
+
+[info]: [🚀]: May-21-2023 07:24:11: Account Added: https://www.notion.so/Quinn144-Inc-c99c62c21926465db4d37e5291dcec23
+[info]: [🚀]: May-21-2023 07:24:12: Account Added: https://www.notion.so/Newman145-Inc-35ab5a55a0264de9ba1bcb0c554e5a0a
+[info]: [🚀]: May-21-2023 07:24:13: Account Added: https://www.notion.so/Knight146-Inc-7d539f6f12c74ab3a6c83d8b012a71aa
+[info]: [🚀]: May-21-2023 07:24:14: Account Added: https://www.notion.so/Graves147-Inc-99f01b2d412444059ce16f41c5a62fdf
+[info]: [🚀]: May-21-2023 07:24:39: server is live on PORT 5000..
+[info]: [🚀]: May-21-2023 07:24:41: Connection successful!
+[error]: [🚀]: May-21-2023 07:24:52: body failed validation. Fix one:
+body.parent.database_id should be defined, instead was `undefined`.
+body.parent.page_id should be defined, instead was `undefined`.
+[error]: [🚀]: May-21-2023 07:24:53: body failed validation. Fix one:
+body.parent.database_id should be defined, instead was `undefined`.
+body.parent.page_id should be defined, instead was `undefined`.
+[info]: [🚀]: May-21-2023 07:27:16: server is live on PORT 5000..
+[info]: [🚀]: May-21-2023 07:27:17: Connection successful!
+[info]: [🚀]: May-21-2023 07:27:28: Account Added: https://www.notion.so/Greer122-Inc-2ca35a31f190448fb93b0ed9cf445735
+[error]: [🚀]: May-21-2023 07:27:28: Cannot read properties of undefined (reading 'send')
+[info]: [🚀]: May-21-2023 07:28:33: Account Added: https://www.notion.so/Greer122-Inc-bee947e1446a4038ad91e25c666fdc54
+[error]: [🚀]: May-21-2023 07:28:33: Cannot read properties of undefined (reading 'send')
+[info]: [🚀]: May-21-2023 07:29:21: server is live on PORT 5000..
+[info]: [🚀]: May-21-2023 07:29:22: Connection successful!
+[info]: [🚀]: May-21-2023 07:29:32: Account Added: https://www.notion.so/Greer122-Inc-fbcf153cf69640d9a6d34415050df039
+[error]: [🚀]: May-21-2023 07:29:32: Cannot read properties of undefined (reading 'json')
+[info]: [🚀]: May-21-2023 07:29:33: Account Added: https://www.notion.so/Greer122-Inc-97ef4bd196c941f6b28c1b21be64281d
+[error]: [🚀]: May-21-2023 07:29:33: Cannot read properties of undefined (reading 'json')
+[info]: [🚀]: May-21-2023 07:32:36: server is live on PORT 5000..
+[info]: [🚀]: May-21-2023 07:32:37: Connection successful!
+[info]: [🚀]: May-21-2023 07:32:41: Account Added: https://www.notion.so/Greer122-Inc-8dff1075b86e465a91e1789770e9fa8b
+[info]: [🚀]: May-21-2023 07:32:43: Account Added: https://www.notion.so/Stewart123-Inc-1613740df6d047d5b526a0371e21fdf1
+[info]: [🚀]: May-21-2023 07:32:44: Account Added: https://www.notion.so/Frank124-Inc-9b70873f66aa450998060896219f6314
+[info]: [🚀]: May-21-2023 07:32:45: Account Added: https://www.notion.so/Burke125-Inc-806a60dd2f62430cb3dd00a9d1b3155c
+[info]: [🚀]: May-21-2023 07:32:46: Account Added: https://www.notion.so/Bates126-Inc-bf492c70dfff415e897c528c7a21f7b5
+[info]: [🚀]: May-21-2023 07:32:48: Account Added: https://www.notion.so/Nash127-Inc-3bd66c799d474644a7b03ec250fe9117
+[info]: [🚀]: May-21-2023 07:32:48: Account Added: https://www.notion.so/Morton128-Inc-251e279a0eaa43b5ba2390094ff6df61
+[info]: [🚀]: May-21-2023 07:32:49: Account Added: https://www.notion.so/Cruz129-Inc-3613419ef0f846119e8b0258cfa4d737
+[info]: [🚀]: May-21-2023 07:32:51: Account Added: https://www.notion.so/Jennings130-Inc-839103d72feb470aa21a333f66bbf5a3

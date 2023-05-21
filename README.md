@@ -21,3 +21,10 @@ To use the script:
 
 These routes may be used in both the browser or using an API platform like POSTMAN, ensure to use get request.
 
+## Logging and auto restart
+The script is configured to save logs in *api.log*
+Should the script runs automatically even with bugs, and in case it is stopped, restarts from the stage it stopped.
+
+To check if there are any processes running, use the command `forever list`
+
+

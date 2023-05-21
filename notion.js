@@ -92,7 +92,7 @@ const notion = new Client({
     }
   })
 
-  const createContactPages = asyncHandler(async(databaseId)=>{
+  const createContactPages = asyncHandler(async( databaseId)=>{
     try {
         const contacts = await getContacts();
         //console.log(contacts);
