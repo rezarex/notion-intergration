@@ -4,7 +4,6 @@
   "description": "A notion salesforce integration script run on nodejs",
   "main": "./bin/index.js",
   "bin":{
-    "welc":"./bin/index.js",
     "accounts": "./bin/accountScript.js",
     "contacts":"./bin/contactScript.js"
   },
