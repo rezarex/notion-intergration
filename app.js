@@ -5,7 +5,7 @@ const jsforce = require('jsforce');
 const PORT = process.env.PORT || 3000;
 const logger = require('./logger')
 const {importAccounts, importContacts} = require('./notion')
-//new comment
+//new comment added for licks
 
 app.get('/', (req, res)=>{
    res.send("Salesforce Notion Intergration")
